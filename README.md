@@ -418,8 +418,8 @@ Review all upstream licenses before commercial use.
 
 For questions, suggestions, or issues:
 
-- **GitHub Issues**: [Open an issue](https://github.com/theunknownodysseus/indian-law-rag-pipeline/issues)
-- **Repository**: [github.com/theunknownodysseus/indian-law-rag-pipeline](https://github.com/theunknownodysseus/indian-law-rag-pipeline)
+- **GitHub Issues**: [Open an issue](https://github.com/theunknownodysseus/indian-law-rag-pipeline-locallyfetched/issues)
+- **Repository**: [github.com/theunknownodysseus/indian-law-rag-pipeline](https://github.com/theunknownodysseus/indian-law-rag-pipeline-locallyfetched)
 
 Built by [Varun](https://github.com/theunknownodysseus)
 ---
