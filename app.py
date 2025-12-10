@@ -23,7 +23,8 @@ OPENROUTER_ROUTER_MODEL = OPENROUTER_MODEL
 
 pinecone.init(api_key=PINECONE_API_KEY, environment="us-west1-gcp-free")
 index = pinecone.Index(PINECONE_INDEX_NAME)
-embedder = SentenceTransformer("intfloat/e5-large-v2")
+embedder = SentenceTransformer("intfloat/e5-large-v2", device="cpu")
+
 
 # [ALL YOUR EXISTING FUNCTIONS - COPY EXACTLY FROM LINES 28-280]
 def openrouter_chat(model: str, system_prompt: str, user_content: str, max_tokens: int = 256, temperature: float = 0.4) -> str:
@@ -279,3 +280,4 @@ async def home():
 
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8000)
+
