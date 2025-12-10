@@ -99,6 +99,10 @@ The data preparation step runs locally or in a separate build:
 
 This process isn't part of the deployed app, which is why the production container stays light.
 
+![Flow](https://github.com/theunknownodysseus/indian-law-rag-pipeline-locallyfetched/blob/main/FLOW%20-NP.png)
+
+---
+
 ### Online Service (Deployed)
 
 The FastAPI app does four things:
